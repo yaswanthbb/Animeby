@@ -26,3 +26,40 @@ body{
 .top-container{
     background-color:#1F2937;
 }
+.elements-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:50px 0px ;
+}
+.elements-container h1{
+    font-size: 48px;
+    margin: 0px;
+    font-weight:900;
+    color: #F9FAF8;
+}
+.elements-container p{
+    margin: 0px;
+    font-size: 18px;
+    color:#E5e7eb;
+}
+.elements-container button{
+    background-color: #3882F6;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border:0;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.content{
+    width: 400px;
+}
+.image{
+    width: 400px;
+    height: 200px;
+    background-color:#6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
