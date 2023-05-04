@@ -115,3 +115,24 @@ body{
     font-weight: bold;
     font-size: 20px;
 }
+
+.action-container{
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.action-content{
+    color: #F9FAF8;
+}
+.action-container button{
+    background-color: transparent;
+    color: #F9FAF8;
+    height: 30px;
+    width: 120px;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    align-self: center;
+}
