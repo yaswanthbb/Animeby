@@ -136,3 +136,10 @@ body{
     border-radius: 6px;
     align-self: center;
 }
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
