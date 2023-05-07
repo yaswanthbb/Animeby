@@ -11,11 +11,11 @@ body{
 .nav-bar{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
 }
-.logo h1{
-    font-weight: bold;
-    font-size: 24px;
-    color:#F9FAF8;
+.logo img{
+    width: 10rem;
 }
 .nav-items{
     display:flex;
@@ -25,8 +25,12 @@ body{
     font-size: 18px;
     color:#E5e7eb;
 }
+.nav-items img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
 .top-container{
-    background-color:#1F2937;
+    background-color:black;
 }
 .elements-container{
     display:flex;
