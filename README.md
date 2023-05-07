@@ -1,2 +1,2 @@
-This is a Layout to create a Landing Page
+This is a Layout to create a Landing Page<br>
 Real Landing Page coming soon...
