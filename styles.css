@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body{
-    font-family:Roboto;
     padding:0px;
     margin:0px;
     display: flex;
@@ -10,27 +9,40 @@ body{
 
 .nav-bar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 3rem;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #000;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .logo img{
-    width: 10rem;
+    height: 2.5rem;
+}
+.logo h1{
+    color: #f88010ec;
+    font-family: 'Kalam',sans-serif;
 }
 .nav-items{
     display:flex;
     justify-content: space-between;
     list-style-type:none;
-    gap:20px;
+    align-items: center;
+    gap:8px;
     font-size: 18px;
+    font-family: 'Aclonica',sans-serif;
     color:#E5e7eb;
 }
 .nav-items img{
     width: 2.5rem;
     height: 2.5rem;
+    filter: invert(22%) sepia(88%) saturate(3729%) hue-rotate(322deg) brightness(90%) contrast(95%);
 }
 .top-container{
-    background-color:black;
+    background-color:#1F2937;
 }
 .elements-container{
     display:flex;
