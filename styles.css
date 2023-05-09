@@ -109,7 +109,7 @@ body{
     border-radius: 10px;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
+    align-items:center;
     justify-content: start;
     gap:10px;
     height: 3rem;
@@ -127,9 +127,6 @@ body{
 }
 ::placeholder{
     color: grey;
-}
-.search-bar img{
-    width: 1rem;
 }
 
 
