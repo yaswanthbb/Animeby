@@ -81,6 +81,7 @@ body{
     font-size: 1.1em;
     text-align: justify;
     line-height: 2rem;
+    font-family: poppins;
 }
 .welcome-image{
     display: flex;
