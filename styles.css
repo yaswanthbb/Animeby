@@ -5,6 +5,7 @@ body{
     margin:0px;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .nav-bar{
@@ -50,7 +51,20 @@ body{
     height: 100%;
     object-fit: cover;
     filter: brightness(1.2);
+    position: fixed;
+    z-index: -2;
 }
+
+.welcome.container{
+    background-color: #000;
+    margin: 50px;
+}
+
+
+
+
+
+
 
 .footer{
     background-color: #1F2937;
@@ -58,4 +72,5 @@ body{
     justify-content: center;
     align-items: center;
     color: #F9FAF8;
+    margin-top: auto;
 }
