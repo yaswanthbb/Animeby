@@ -104,6 +104,33 @@ body{
     border: 3px solid white;
     margin-top:1rem;
 }
+.search-bar{
+    background-color:#2C2E2F;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+    gap:10px;
+    height: 3rem;
+    width: 15vw;
+}
+.search-bar input,
+.search-bar button{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+.search-bar button{
+    cursor: pointer;
+    padding-left: 1rem;
+}
+::placeholder{
+    color: grey;
+}
+.search-bar img{
+    width: 1rem;
+}
 
 
 
