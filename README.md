@@ -1,2 +1,2 @@
-Animeby is a community-driven website for anime fans.
+Animeby is a community-driven website for anime fans.<br>
 More Details coming soon...
