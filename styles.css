@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+*{
+    font-family: "Lacquer";
+}
 body{
     padding:0px;
     margin:0px;
@@ -27,17 +29,19 @@ body{
 }
 .logo h1{
     color: #f88010ec;
-    font-family: 'Kalam',sans-serif;
+    font-family: 'Kalam',sans-serif !important;
 }
-.nav-items{
+.nav-items {
     display:flex;
     justify-content: space-between;
     list-style-type:none;
     align-items: center;
     gap:8px;
     font-size: 18px;
-    font-family: 'Aclonica',sans-serif;
     color:#E5e7eb;
+}
+.nav-items a {
+    font-family: 'Aclonica',sans-serif !important;
 }
 .nav-items img{
     width: 2.5rem;
@@ -124,6 +128,9 @@ body{
     background-color: transparent;
     border: 0;
     outline: none;
+}
+.search-bar input{
+    font-family: "poppins" !important;
 }
 .search-bar button{
     cursor: pointer;
