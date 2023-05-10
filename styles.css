@@ -11,7 +11,6 @@ body{
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 0px 3rem;
     align-items: center;
     background-color: #000;
     position: fixed;
@@ -21,6 +20,7 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-left: 3rem;
 }
 .logo img{
     height: 2.5rem;
@@ -92,6 +92,7 @@ body{
 }
 .welcome-image img{
     width: 30vw;
+    border-radius: 15px;
 }
 .donate{
     text-align: center;
@@ -99,7 +100,7 @@ body{
 .donate-button{
     width: 11em;
     height: 3.5em;
-    background-color: #f88010;
+    background-image: linear-gradient(rgb(255, 98, 0), rgb(255, 123, 0));
     border-radius: 3em;
     color: white;
     font-size: 1.2em;
@@ -116,6 +117,7 @@ body{
     gap:10px;
     height: 3rem;
     width: 15vw;
+    margin-right: 3rem;
 }
 .search-bar input,
 .search-bar button{
@@ -130,12 +132,6 @@ body{
 ::placeholder{
     color: grey;
 }
-
-
-
-
-
-
 
 .footer{
     background-color: #1F2937;
