@@ -80,7 +80,7 @@ body{
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 0 3em rgb(69, 69, 69);
-    width: 75%;
+    width: 60%;
 }
 .welcome-content{
     width: 30vw;
@@ -101,17 +101,6 @@ body{
     text-align: justify;
     line-height: 2rem;
     font-family: poppins;
-}
-.welcome-image{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    box-shadow: 15px 15px 30px #bebebe,
-             -15px -15px 30px #ffffff;
-}
-.welcome-image img{
-    width: 30vw;
-    border-radius: 15px;
 }
 .donate{
     text-align: center;
