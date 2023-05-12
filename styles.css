@@ -131,6 +131,7 @@ body{
 }
 .search-bar input{
     font-family: "poppins" !important;
+    color: #F9FAF8;
 }
 .search-bar button{
     cursor: pointer;
